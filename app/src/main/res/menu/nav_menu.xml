@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Accueil"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/caisse_gen"
+            android:title="Caisses"
+            >
+            <menu>
+                <item
+                    android:id="@+id/caisse"
+                    android:title="Ma caisse"
+                    android:icon="@drawable/ic_caisse"/>
+
+                <item
+                    android:id="@+id/caisse_flexy"
+                    android:title="Ma caisse de flexy"
+                    android:icon="@drawable/ic_caisse"/>
+
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/stock_gen"
+            android:title="Stock"
+            >
+            <menu>
+
+
+                <item
+                    android:id="@+id/stock"
+                    android:icon="@drawable/ic_stock"
+                    android:title="Mon stock" />
+                <item
+                    android:id="@+id/ajout"
+                    android:icon="@drawable/ic_ajout"
+                    android:title="Ajouter produit" />
+                <item
+                    android:id="@+id/scan"
+                    android:icon="@drawable/ic_scanner"
+                    android:title="Mon stock" />
+                <item
+                    android:id="@+id/jour"
+                    android:icon="@drawable/ic_jour"
+                    android:title="Ma journée" />
+                <item
+                    android:id="@+id/his"
+                    android:icon="@drawable/ic_history"
+                    android:title="Hisotrique produits" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/flexy"
+            android:title="Flexy">
+            <menu>
+                <item
+                    android:id="@+id/nouv_flexy"
+                    android:title="Nouveau Flexy"
+                    android:icon="@drawable/ic_plus"/>
+                <item
+                    android:id="@+id/recette_flexy"
+                    android:title="Recette Flexy"
+                    android:icon="@drawable/ic_jour"/>
+                <item
+                    android:id="@+id/his_flexy"
+                    android:title="Historique Flexy"
+                    android:icon="@drawable/ic_history"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/cartes"
+            android:title="Cartes idoom">
+            <menu>
+                <item
+                    android:id="@+id/nouv_cartes"
+                    android:title="Nouvelle carte"
+                    android:icon="@drawable/ic_plus"/>
+                <item
+                    android:id="@+id/recette_cartes"
+                    android:title="Recette cartes"
+                    android:icon="@drawable/ic_jour"/>
+                <item
+                    android:id="@+id/his_carte"
+                    android:title="Historique carte"
+                    android:icon="@drawable/ic_history"/>
+            </menu>
+        </item>
+
+    </group>
+</menu>
